@@ -1,0 +1,188 @@
+/*
+Landing page
+\\\\\\\\\\\\\
+*/
+
+.landing-container {
+  height: 100vh;
+}
+
+/* Landing page nav */
+nav {
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;;
+}
+  
+nav ul {
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+  
+nav ul li {
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+/* Landing page name/intro */
+.name {
+  height: 100%;
+  display: flex;
+}
+
+.meet-tyreeck,
+.makki-dev {
+  width: 50%;
+  height: calc(100% - 3.5rem);
+}
+
+.meet-tyreeck-text,
+.makki-dev-text {
+  height: fit-content;
+  width: fit-content;
+  position: relative;
+}
+
+.meet-tyreeck-text h1,
+.makki-dev-text h1{
+  font-size: 8.5rem;
+}
+
+.meet-tyreeck-text p,
+.makki-dev-text {
+  font-size: 1.5rem;
+}
+
+.meet-tyreeck-text {
+  top: calc(50% - 150px);
+  left: calc(100% - 450px);
+}
+
+.makki-dev-text {
+  top: calc(50% + 50px);
+}
+
+/* Scene */
+#canvas {
+    position: absolute;
+    top: calc(50% + 50px);
+    left: calc(50% - 300px);
+}
+
+/* Previous Portfolio link */
+.previous-portfolio {
+    width: fit-content;
+    position: absolute;
+    bottom: 25px;
+    right: 50px;
+}
+
+/* dark light toggle */
+.switch {
+  position: absolute;
+  right: 50px;
+  width: 60px;
+  height: 34px;
+  transform: rotate(90deg);
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+/* 
+Landing page queries
+////////////////////
+*/
+@media screen and (max-width: 415px) {
+  /* text */
+  .meet-tyreeck-text h1,
+  .makki-dev-text h1{
+    font-size: 3.5rem;
+  }
+
+  .meet-tyreeck-text {
+    left: calc(0% + 10px);
+  }
+
+  .makki-dev-text {
+    right: 0%;
+    top: calc(50% - 50px);
+  }
+
+  .previous-portfolio {
+    right: 25px;
+  }
+
+  /* scene */
+  #canvas {
+    left: 5%;
+  }
+} 
+
+@media screen and (min-width: 416px) and (max-width: 850px) {
+  /* text */
+  .meet-tyreeck-text h1,
+  .makki-dev-text h1{
+    font-size: 6.5rem;
+  }
+
+  .meet-tyreeck-text {
+    left: 15%;
+  }
+}
