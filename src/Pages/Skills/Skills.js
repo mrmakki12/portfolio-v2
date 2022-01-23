@@ -17,22 +17,22 @@ export const Skills = () => {
             </div>
             <div className='skills'>
                 <div>
-                    <span aria-hidden="true" className="devicons devicon-javascript-plain" title="JavaScript &amp; ES6"></span>
+                    <span aria-hidden="true" className="devicons devicon-javascript-plain colored" title="JavaScript &amp; ES6"></span>
                 </div>
                 <div>
-                    <span aria-hidden="true" className="devicons devicon-react-original" title="JavaScript &amp; ES6"></span>
+                    <span aria-hidden="true" className="devicons devicon-react-original colored" title="JavaScript &amp; ES6"></span>
                 </div>
                 <div>
-                    <span aria-hidden="true" className="devicons devicon-redux-original" title="JavaScript &amp; ES6"></span>
+                    <span aria-hidden="true" className="devicons devicon-redux-original colored" title="JavaScript &amp; ES6"></span>
                 </div>
                 <div>
-                    <span aria-hidden="true" className="devicons devicon-html5-plain" title="JavaScript &amp; ES6"></span>
+                    <span aria-hidden="true" className="devicons devicon-html5-plain colored" title="JavaScript &amp; ES6"></span>
                 </div>
                 <div>
-                    <span aria-hidden="true" className="devicons devicon-css3-plain" title="JavaScript &amp; ES6"></span>
+                    <span aria-hidden="true" className="devicons devicon-css3-plain colored" title="JavaScript &amp; ES6"></span>
                 </div>
                 <div>
-                    <span aria-hidden="true" className="devicons devicon-github-original" title="JavaScript &amp; ES6"></span>
+                    <span aria-hidden="true" className="devicons devicon-github-original colored" title="JavaScript &amp; ES6"></span>
                 </div>
                 <div>
                     <span aria-hidden="true" className='devicons tbd'>...</span>

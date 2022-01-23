@@ -8,7 +8,7 @@ import { Contact } from './Pages/Contact/Contact.js';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App light">
 
       <Landing />
       <Hello />

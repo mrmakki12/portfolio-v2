@@ -10,19 +10,6 @@ export const Scene = () => {
         // Scene
         const scene = new THREE.Scene()
 
-        //hande resize 
-        // window.addEventListener('resize', () => {
-            
-
-        //     // update camera
-        //     camera.aspect = window.innerWidth / window.innerHeight
-        //     camera.updateProjectionMatrix()
-
-        //     //update renderer
-        //     renderer.setSize(window.innerWidth, window.innerHeight)
-        //     renderer.setPixelRatio(Math.min(2, window.devicePixelRatio))
-        // })
-
         /**
          * Camera
          */
@@ -89,7 +76,7 @@ export const Scene = () => {
 
     return (
       
-            <canvas id='canvas'></canvas>
+        <canvas id='canvas'></canvas>
         
     )
 }
