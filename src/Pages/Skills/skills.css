@@ -14,22 +14,3 @@
     text-align: center;
 }
 
-
-
-@media screen and (max-width: 415px) {
-    /* container and layout*/
-    .skills-container {
-        height: 200vh;
-        flex-direction: column;
-        padding: 15px;
-        justify-content: space-evenly;
-
-    }
-
-    .skills-text,
-    .skills {
-        width: 85%;
-        height: 45%;
-    }
-
-}

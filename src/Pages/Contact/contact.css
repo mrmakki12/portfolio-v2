@@ -15,10 +15,12 @@ form {
 
 textarea {
     height: 150px;
+    padding: 10px;
 }
 
 input {
     height: 30px;
+    padding: 10px;
 }
 
 button {

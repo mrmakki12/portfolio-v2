@@ -48,7 +48,7 @@ All Pages
   line-height: 1.75rem;
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 815px) {
   /* container and layout*/
   .container {
       height: 200vh;
@@ -58,11 +58,21 @@ All Pages
 
   }
 
+  .text h1 {
+    font-size: 3rem;
+  }
+
+  .text p {
+    font-size: 1rem;
+  }
+
   .text,
   .contact,
-  .skills {
+  .skills,
+  .me,
+  .projects {
       width: 85%;
-      height: 45%;
+      height: fit-content;
   }
 
 }
