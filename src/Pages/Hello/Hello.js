@@ -9,7 +9,7 @@ export const Hello = () => {
                     Hey, I'm Tyreeck. I'm a Web-Developer from North Carolina.
                     I love Web-Development and coding in general because it enables 
                     me to express myself and my interest and potentially get in touch 
-                    with thousands, hundreds of thousands or potentially millions of people.
+                    with thousands, hundreds of thousands or even millions of people.
                     <br />
                     <br />
                     Besides coding I love to hit the gym, play basketball and learn about things that

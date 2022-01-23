@@ -2,7 +2,11 @@ import React from 'react';
 import { Scene } from '../../Scene/Scene';
 import './landing.css';
 
-export const Landing = () => {
+export const Landing = (props) => {
+
+    const theme = props.theme;
+    const setTheme = props.setTheme;
+
     return (
         <section className='landing-container'>
 
@@ -44,7 +48,13 @@ export const Landing = () => {
                     </div>
                     <p className='previous-portfolio'>See My Previous <a href='#'>Portfolio</a></p>
                     <label class="switch">
-                        <input type="checkbox" />
+                        <input 
+                            type="checkbox" 
+                            className='checkbox-class'
+                            onClick={() => {
+                                theme === 'light' ? setTheme('dark') : setTheme('light');
+                            }}
+                        />
                         <span class="slider round"></span>
                     </label>
                 </div>

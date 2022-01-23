@@ -4,17 +4,30 @@ Themes
 */
 /* colors */
 :root {
-  --sunset-orange: #ffb17a;
-  --rolls-royce-purple: #4f4789;
+  --sunset-orange: #ff9b71;
+  --rolls-royce-purple: #201335;
   --eggshell: #fffded;
 }
 /* light and dark constant styles */
 nav, 
 .previous-portfolio,
 .meet-tyreeck-text p,
-.makki-dev-text p
-.devicons {
+.makki-dev-text p {
   color: var(--sunset-orange);
+}
+
+.skills {
+  background-color: var(--sunset-orange);
+}
+
+body::-webkit-scrollbar {
+  width: 0.7em;
+  background: var(--eggshell);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sunset-orange);
+  height:30px;
 }
 
 /* Light mode*/
@@ -28,9 +41,14 @@ nav,
 
 .light .meet-tyreeck-text h1,
 .light .makki-dev-text h1,
-.light .text {
+.light .text,
+.light .previous-portfolio a {
   color: var(--rolls-royce-purple);
   text-decoration-color: var(--sunset-orange);
+}
+
+.light .slider {
+  background-color: var(--rolls-royce-purple);
 }
 
 .light nav ul li:hover {
@@ -64,9 +82,14 @@ nav,
 
 .dark .meet-tyreeck-text h1,
 .dark .makki-dev-text h1,
-.dark .text {
+.dark .text,
+.dark .previous-portfolio a {
   color: var(--eggshell);
   text-decoration-color: var(--sunset-orange);
+}
+
+.dark .slider {
+  background-color: var(--eggshell);
 }
 
 
@@ -85,6 +108,10 @@ All Pages
 
 a {
   color: inherit;
+}
+
+p {
+  font-weight:bold;
 }
 
 .container {

@@ -1,7 +1,9 @@
 .contact {
-    padding: 25px;
+    padding: 15px;
     display: flex;
     justify-content: center;
+    border-radius: 5px;
+    background-color: var(--sunset-orange);
 }
 
 
@@ -13,17 +15,36 @@ form {
     justify-content: space-between;
 }
 
+textarea:focus, 
+input:focus,
+button:focus {
+    outline: none;   
+    border: none;
+}
+
+textarea,
+input,
+button {
+    border: none;
+}
+
+textarea:hover,
+input:hover,
+button:hover {
+    border: none;
+}
+
 textarea {
     height: 150px;
     padding: 10px;
 }
 
-input {
+input, button {
     height: 30px;
     padding: 10px;
 }
 
-button {
-    height: 30px;
+button:hover  {
+    cursor: pointer;
 }
 

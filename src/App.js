@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import './App.css';
 // get all components here
 import { Landing } from './Pages/Landing/Landing.js';
@@ -7,10 +8,17 @@ import { Projects } from './Pages/Projects/Projects.js';
 import { Contact } from './Pages/Contact/Contact.js';
 
 function App() {
-  return (
-    <div className="App light">
 
-      <Landing />
+  // theme state
+  const [theme, setTheme] = useState('light');
+
+  return (
+    <div className={"App " + theme}>
+
+      <Landing
+        theme={theme}
+        setTheme={setTheme}
+      />
       <Hello />
       <Skills />
       <Projects />

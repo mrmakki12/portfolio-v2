@@ -8,7 +8,7 @@ export const Projects = () => {
                 <h1>Projects!</h1>
                 <p>
                     Theses are some the projects I've made using the tech
-                    listed about. I'm always working on a project.
+                    listed above. I'm always working on a project.
                 </p>
             </div>
             <div className='projects'>
