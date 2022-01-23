@@ -1,0 +1,35 @@
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.devicons {
+    font-size: 4rem;
+    line-height: 5rem;
+    margin: 50px;
+}
+
+.tbd {
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 415px) {
+    /* container and layout*/
+    .skills-container {
+        height: 200vh;
+        flex-direction: column;
+        padding: 15px;
+        justify-content: space-evenly;
+
+    }
+
+    .skills-text,
+    .skills {
+        width: 85%;
+        height: 45%;
+    }
+
+}
