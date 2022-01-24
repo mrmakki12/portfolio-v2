@@ -1,0 +1,16 @@
+.project {
+    height: 500px;
+    width: 575px;
+}
+
+.screenshot-link img{
+    height: 350px;
+    width: 575px;
+}
+
+.projects {
+    display: flex;
+    height: 500px;
+    width: 575px;
+    overflow-x: scroll;
+}
