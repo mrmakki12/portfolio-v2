@@ -5,7 +5,7 @@ export const Skills = () => {
     return (
 
         <section className='container'>
-            <div className='text'>
+            <div className='text' data-aos='fade-right'>
                 <h1>Skills!</h1>
                 <p>
                 These are the technologies I am most familiar with and have
@@ -15,7 +15,7 @@ export const Skills = () => {
                     never stop learning.
                 </p>
             </div>
-            <div className='skills'>
+            <div className='skills' data-aos='fade-left'>
                 <div>
                     <span aria-hidden="true" className="devicons devicon-javascript-plain colored" title="JavaScript &amp; ES6"></span>
                 </div>

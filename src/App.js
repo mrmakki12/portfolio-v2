@@ -13,7 +13,7 @@ function App() {
   const [theme, setTheme] = useState('light');
 
   return (
-    <div className={"App " + theme}>
+    <div className={"App " + theme} data-aos-easing='ease' data-aos-delay='0'>
 
       <Landing
         theme={theme}

@@ -26,6 +26,7 @@ textarea,
 input,
 button {
     border: none;
+    font-weight: bold;
 }
 
 textarea:hover,
@@ -44,7 +45,14 @@ input, button {
     padding: 10px;
 }
 
+button {
+    background-color: var(--eggshell);
+    transition: all ease-in-out 0.3s;
+}
+
 button:hover  {
     cursor: pointer;
+    color: var(--eggshell);
+    background-color: var(--rolls-royce-purple);
 }
 

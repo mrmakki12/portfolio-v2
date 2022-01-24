@@ -2,8 +2,8 @@ import React from 'react';
 
 export const Hello = () => {
     return (
-        <section className='container'>
-            <div className='text'>
+        <section className='container' id='about'>
+            <div className='text' data-aos='fade-right'>
                 <h1>Hello!</h1>
                 <p>
                     Hey, I'm Tyreeck. I'm a Web-Developer from North Carolina.
@@ -23,7 +23,7 @@ export const Hello = () => {
 
                 </p>
             </div>
-            <div className='me'>
+            <div className='me' data-aos='fade-left'>
 
             </div>
         </section>

@@ -3,15 +3,15 @@ import './contact.css';
 
 export const Contact = () => {
     return (
-        <section className='container'>
-            <div className='text'>
+        <section className='container' id='contact'>
+            <div className='text' data-aos='fade-right'>
                 <h1>Contact!</h1>
                 <p>
                     If you made down here, go ahead and send me an email!
                     It can be about anything really.
                 </p>
             </div>
-            <div className='contact'>
+            <div className='contact' data-aos='fade-left'>
                 <form>
                     <input 
                         type='text' 

@@ -12,17 +12,17 @@ export const Landing = (props) => {
 
             <nav>
                 <ul>
-                    <a href='#'>
+                    <a href='#about'>
                         <li>
                             <p>About!</p>
                         </li>
                     </a>
-                    <a href='#'>
+                    <a href='#projects'>
                         <li>
                             <p>Projects!</p>
                         </li>
                     </a>
-                    <a href='#'>
+                    <a href='#contact'>
                         <li>
                             <p>Contact!</p>
                         </li>
@@ -46,11 +46,10 @@ export const Landing = (props) => {
                         <h1>Makki</h1>
                         <p>Web Developer</p>
                     </div>
-                    <p className='previous-portfolio'>See My Previous <a href='#'>Portfolio</a></p>
+                    <p className='previous-portfolio'>See My Previous <a target='_blank' href='https://meet-tyreeck.netlify.app'>Portfolio</a></p>
                     <label class="switch">
                         <input 
                             type="checkbox" 
-                            className='checkbox-class'
                             onClick={() => {
                                 theme === 'light' ? setTheme('dark') : setTheme('light');
                             }}
