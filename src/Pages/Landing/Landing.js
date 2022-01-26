@@ -9,8 +9,8 @@ export const Landing = (props) => {
 
     return (
         <section className='landing-container'>
-
-            <nav>
+            {/* navigation */}
+            <nav role='navigation'>
                 <ul>
                     <a href='#about'>
                         <li>
@@ -29,7 +29,7 @@ export const Landing = (props) => {
                     </a>
                 </ul>
             </nav>
-
+            {/* container with my name and three.js scene  */}
             <div className='name'>
 
                 <div className='meet-tyreeck'>
@@ -47,14 +47,16 @@ export const Landing = (props) => {
                         <p>Web Developer</p>
                     </div>
                     <p className='previous-portfolio'>See My Previous <a target='_blank' href='https://meet-tyreeck.netlify.app'>Portfolio</a></p>
-                    <label class="switch">
+                    <label className="switch">
                         <input 
                             type="checkbox" 
+                            aria-label='Dark and light mode toggle'
+                            aria-checked='false'
                             onClick={() => {
                                 theme === 'light' ? setTheme('dark') : setTheme('light');
                             }}
                         />
-                        <span class="slider round"></span>
+                        <span className="slider round"></span>
                     </label>
                 </div>
 

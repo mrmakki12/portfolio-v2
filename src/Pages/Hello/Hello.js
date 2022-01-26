@@ -3,6 +3,7 @@ import React from 'react';
 export const Hello = () => {
     return (
         <section className='container' id='about'>
+            {/* text container with info about me */}
             <div className='text' data-aos='fade-right'>
                 <h1>Hello!</h1>
                 <p>
@@ -19,13 +20,13 @@ export const Hello = () => {
                     Constant and Never Ending Improvement(CANI) is one of the values I hold most dearly, and 
                     has allowed me to improve in all aspects of life (including coding).
                     I would love to work with a group that makes it a priority to constantly improve themselves 
-                    and their work by learning new strategies and skills. 
-
+                    and their work by learning new strategies and skills.
                 </p>
             </div>
+            {/* picture of me */}
             <div className='me' data-aos='fade-left'>
-
             </div>
+
         </section>
     )
 }

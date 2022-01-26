@@ -5,6 +5,7 @@ export const Skills = () => {
     return (
 
         <section className='container'>
+            {/* text container with info on my skills */}
             <div className='text' data-aos='fade-right'>
                 <h1>Skills!</h1>
                 <p>
@@ -15,6 +16,7 @@ export const Skills = () => {
                     never stop learning.
                 </p>
             </div>
+            {/* skills container with devicons representing skills */}
             <div className='skills' data-aos='fade-left'>
                 <div>
                     <span aria-hidden="true" className="devicons devicon-javascript-plain colored" title="JavaScript &amp; ES6"></span>
@@ -41,6 +43,7 @@ export const Skills = () => {
                 <span aria-hidden="true" className='devicons tbd'>...</span>
                 </div>
             </div>
+            
         </section>
     )
 }

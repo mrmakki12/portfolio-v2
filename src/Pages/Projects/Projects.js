@@ -6,6 +6,7 @@ export const Projects = () => {
 
     return (
         <section className='container' id='projects'>
+            {/* container with text info on projects */}
             <div className='text' data-aos='fade-right'>
                 <h1>Projects!</h1>
                 <p>
@@ -13,23 +14,23 @@ export const Projects = () => {
                     listed above. I'm always working on a project.
                 </p>
             </div>
+            {/* container with projects rendered from projects-data.js */}
             <div className='projects-wrapper' data-aos='fade-left'>
+                {/* scrolls overflow */}
                 <button 
-                className='scroll left'
-                onClick={() => document.querySelector('.projects').scrollBy({top: 0, left: -550, behavior: 'smooth'})}
-                >
-                    
+                    className='scroll left'
+                    onClick={() => document.querySelector('.projects').scrollBy({top: 0, left: -550, behavior: 'smooth'})}>
                 </button>
                 <div className='projects'>
-                
+                {/* rendering projects from data */}
                     {
                         projects.map((project) => {
                             return (
         
-                                <div className='project'>
-                                    <a target='_blank' href={project.link}>
-                                        <div className='screenshot-link'>
-                                            <img src={project.screenshot} className='screenshot'/>
+                                <div className='project' key={Math.random() * 10}>
+                                    <a target='_blank' href={project.link} aria-label={project.name + ' website link'}>
+                                        <div className='screenshot-link' role='link'>
+                                            <img src={project.screenshot} className='screenshot' alt={project.name}/>
                                         </div>
                                     </a>
                                     <div className='description'>
@@ -38,7 +39,7 @@ export const Projects = () => {
                                     <ul>
                                         {
                                             project.tech.map(type => {
-                                                return <span aria-hidden="true" className={"devicons-1 " + type + " colored"} title="JavaScript &amp; ES6"></span>
+                                                return <span aria-hidden="true" key={Math.random() * 10} className={"devicons-1 " + type + " colored"} title="JavaScript &amp; ES6"></span>
                                             })
                                         }
                                     </ul>
@@ -48,11 +49,13 @@ export const Projects = () => {
                     }
 
                 </div>
+                {/* scrolls overflow */}
                 <button 
-                className='scroll right'
-                onClick={() => document.querySelector('.projects').scrollBy({top: 0, left: 550, behavior: 'smooth'})}> 
+                    className='scroll right'
+                    onClick={() => document.querySelector('.projects').scrollBy({top: 0, left: 550, behavior: 'smooth'})}> 
                 </button>
             </div>
+
         </section>
     )
 }
