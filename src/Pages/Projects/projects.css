@@ -43,3 +43,45 @@
     overflow-x: scroll;
     border-radius: 5px;
 }
+
+@media screen and (max-width: 425px) {
+    .projects-wrapper {
+        width: 300px;
+    }
+
+    .screenshot-link img{
+        max-height: 175px;
+        height: auto;
+        max-width: 300px;
+        width: auto;
+    }
+
+    .project, .devicons-1 {
+        font-size: 1rem;
+    }
+
+    .scroll {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 850px) {
+    .projects {
+        flex-direction: column;
+        height: 400px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    .projects-wrapper {
+        justify-content: center;
+    }
+
+    #projects.container {
+        flex-direction: column;
+    }
+
+    .scroll {
+        display: none;
+    }
+}

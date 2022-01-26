@@ -162,11 +162,15 @@ p {
 @media screen and (max-width: 815px) {
   /* container and layout*/
   .container {
-      height: 200vh;
+      height: 150vh;
       flex-direction: column;
       padding: 15px;
       justify-content: space-evenly;
 
+  }
+
+  .text {
+    margin-bottom: 100px;
   }
 
   .text h1 {
