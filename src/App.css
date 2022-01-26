@@ -28,14 +28,16 @@ nav,
   background-color: var(--sunset-orange);
 }
 
-body::-webkit-scrollbar {
+body::-webkit-scrollbar,
+.projects::-webkit-scrollbar {
   width: 0.7em;
   background: var(--eggshell);
 }
 
-body::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb,
+.projects::-webkit-scrollbar-thumb {
   background: var(--sunset-orange);
-  height:30px;
+  height:20px;
 }
 
 /* Light mode*/
@@ -69,6 +71,10 @@ body::-webkit-scrollbar-thumb {
   text-decoration: underline solid var(--sunset-orange);
 }
 
+.light .project {
+  color: var(--rolls-royce-purple);
+}
+
 /* Dark Mode */
 .dark {
   background-color: var(--rolls-royce-purple);
@@ -100,6 +106,9 @@ body::-webkit-scrollbar-thumb {
   background-color: var(--eggshell);
 }
 
+.dark .project {
+  color: var(--eggshell);
+}
 
 /* 
 All Pages 

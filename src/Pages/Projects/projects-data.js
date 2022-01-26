@@ -33,9 +33,11 @@ export const projects = [
 
         description: `Frontend Mentor challenge to recreate a multi-theme calculator`,
 
-        tech: ['devicon-html-plain', 'devicon-css-plain', 'devicon-javascript-plain'],
+        tech: ['devicon-html5-plain', 'devicon-css3-plain', 'devicon-javascript-plain'],
 
-        link: 'https://tyreecks-calculator.netlify.app/'
+        link: 'https://tyreecks-calculator.netlify.app/',
+
+        screenshot: './static/photos/screenshots/calculator.png'
     },
 
     {
@@ -43,7 +45,7 @@ export const projects = [
 
         description: `Here's my previous portfolio, different but similar to this one`,
 
-        tech: ['html', 'css', 'javascript'],
+        tech: ['devicon-html5-plain', 'devicon-css3-plain', 'devicon-javascript-plain'],
 
         link: 'https://meet-tyreeck.netlify.app',
 
