@@ -1,3 +1,7 @@
+# Hello World 
+
+This is the second edition of my personal portfolio. A lot cleaner code and documentation, built with react.js, three.js, data-aos libraries :)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
