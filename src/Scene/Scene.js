@@ -5,27 +5,27 @@ import * as THREE from 'three';
 export const Scene = () => {
 
     useEffect(() => {
-        const canvas = document.getElementById('canvas')
+        const canvas = document.getElementById('canvas');
                 
         // Scene
-        const scene = new THREE.Scene()
+        const scene = new THREE.Scene();
 
         /**
          * Camera
          */
         // Base camera
-        const camera = new THREE.PerspectiveCamera(35, 200 / 200, .1, 10)
+        const camera = new THREE.PerspectiveCamera(35, 200 / 200, .1, 10);
         camera.position.z = 3;
         scene.add(camera);
 
         /**
          * Lights
          */
-        const ambientLight = new THREE.AmbientLight(0xffffff, 1.2)
+        const ambientLight = new THREE.AmbientLight(0xffffff, 1.2);
         scene.add(ambientLight);
 
         
-        const directionalLight = new THREE.DirectionalLight(0xffffff, 1.5)
+        const directionalLight = new THREE.DirectionalLight(0xffffff, 1.5);
         directionalLight.position.set(2, 2, 2);
         scene.add(directionalLight);
 
@@ -76,7 +76,11 @@ export const Scene = () => {
 
     return (
       
-        <canvas id='canvas'></canvas>
+        <canvas 
+            id='canvas'
+            role='none'
+        >
+        </canvas>
         
     )
 }

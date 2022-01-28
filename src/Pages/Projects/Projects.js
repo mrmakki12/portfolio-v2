@@ -6,7 +6,7 @@ export const Projects = () => {
 
     return (
         <section className='container' id='projects'>
-            {/* container with text info on projects */}
+            {/* container with text info on projects, fades right on scroll */}
             <div className='text' data-aos='fade-right'>
                 <h1>Projects!</h1>
                 <p>
@@ -14,7 +14,7 @@ export const Projects = () => {
                     listed above. I'm always working on a project.
                 </p>
             </div>
-            {/* container with projects rendered from projects-data.js */}
+            {/* container with projects rendered from projects-data.js, fades right on scroll */}
             <div className='projects-wrapper' data-aos='fade-left'>
                 {/* scrolls overflow */}
                 <button 
@@ -26,20 +26,23 @@ export const Projects = () => {
                     {
                         projects.map((project) => {
                             return (
-        
+                                // project 
                                 <div className='project' key={Math.random() * 10}>
+                                    {/* project image / image-container */}
                                     <a target='_blank' href={project.link} aria-label={project.name + ' website link'}>
                                         <div className='screenshot-link' role='link'>
                                             <img src={project.screenshot} className='screenshot' alt={project.name}/>
                                         </div>
                                     </a>
+                                    {/* project description */}
                                     <div className='description'>
                                         <p>{project.description}</p>
                                     </div>
+                                    {/* list of tech used */}
                                     <ul>
                                         {
                                             project.tech.map(type => {
-                                                return <span aria-hidden="true" key={Math.random() * 10} className={"devicons-1 " + type + " colored"} title="JavaScript &amp; ES6"></span>
+                                                return <span aria-hidden="true" key={Math.random() * 10} className={"devicons-1 " + type + " colored"}></span>
                                             })
                                         }
                                     </ul>

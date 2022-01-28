@@ -4,7 +4,7 @@ import './contact.css';
 export const Contact = () => {
     return (
         <section className='container' id='contact'>
-            {/* container of text about contacting me */}
+            {/* container of text about contacting me, fades right on scroll */}
             <div className='text' data-aos='fade-right'>
                 <h1>Contact!</h1>
                 <p>
@@ -12,7 +12,7 @@ export const Contact = () => {
                     It can be about anything really.
                 </p>
             </div>
-            {/* contact form */}
+            {/* contact form, fades left on scroll*/}
             <div className='contact' data-aos='fade-left'>
                 <form aria-label='Contact Tyreeck'>
                     <input 

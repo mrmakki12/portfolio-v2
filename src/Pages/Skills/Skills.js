@@ -19,28 +19,28 @@ export const Skills = () => {
             {/* skills container with devicons representing skills */}
             <div className='skills' data-aos='fade-left'>
                 <div>
-                    <span aria-hidden="true" className="devicons devicon-javascript-plain colored" title="JavaScript &amp; ES6"></span>
+                    <span aria-hidden="true" className="devicons devicon-javascript-plain colored" title="JavaScript"></span>
                 </div>
                 <div>
-                    <span aria-hidden="true" className="devicons devicon-react-original colored" title="JavaScript &amp; ES6"></span>
+                    <span aria-hidden="true" className="devicons devicon-react-original colored" title="React"></span>
                 </div>
                 <div>
-                    <span aria-hidden="true" className="devicons devicon-redux-original colored" title="JavaScript &amp; ES6"></span>
+                    <span aria-hidden="true" className="devicons devicon-redux-original colored" title="Redux"></span>
                 </div>
                 <div>
-                    <span aria-hidden="true" className="devicons devicon-html5-plain colored" title="JavaScript &amp; ES6"></span>
+                    <span aria-hidden="true" className="devicons devicon-html5-plain colored" title="HTML5"></span>
                 </div>
                 <div>
-                    <span aria-hidden="true" className="devicons devicon-css3-plain colored" title="JavaScript &amp; ES6"></span>
+                    <span aria-hidden="true" className="devicons devicon-css3-plain colored" title="CSS3"></span>
                 </div>
                 <div>
-                    <span aria-hidden="true" className="devicons devicon-github-original colored" title="JavaScript &amp; ES6"></span>
+                    <span aria-hidden="true" className="devicons devicon-github-original colored" title="Github"></span>
                 </div>
                 <div>
-                    <span aria-hidden="true" className='devicons tbd'>...</span>
+                    <span aria-hidden="true" className='devicons tbd' title='Future skill here :)'>...</span>
                 </div>
                 <div>
-                <span aria-hidden="true" className='devicons tbd'>...</span>
+                <span aria-hidden="true" className='devicons tbd' title='Another Future skill here :)'>...</span>
                 </div>
             </div>
             

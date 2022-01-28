@@ -31,13 +31,14 @@ export const Landing = (props) => {
             </nav>
             {/* container with my name and three.js scene  */}
             <div className='name'>
-
+    
                 <div className='meet-tyreeck'>
                     <div className='meet-tyreeck-text'>
                         <p>Meet</p>
                         <br />
                         <h1>Tyreeck</h1>
                     </div>
+                    {/* the rotating cube  */}
                     <Scene />
                 </div>
                 
@@ -47,6 +48,7 @@ export const Landing = (props) => {
                         <p>Web Developer</p>
                     </div>
                     <p className='previous-portfolio'>See My Previous <a target='_blank' href='https://meet-tyreeck.netlify.app'>Portfolio</a></p>
+                    {/* light dark toggle */}
                     <label className="switch">
                         <input 
                             type="checkbox" 
