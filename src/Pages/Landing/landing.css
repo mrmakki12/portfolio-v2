@@ -1,6 +1,5 @@
-/*
-Landing page
-\\\\\\\\\\\\\
+/* This stylesheet is for things specific to 
+what you see when the page is loaded
 */
 
 .landing-container {
@@ -70,17 +69,17 @@ nav a {
 
 /* Scene */
 #canvas {
-    position: absolute;
-    top: calc(50% + 50px);
-    left: calc(50% - 300px);
+  position: absolute;
+  top: calc(50% + 50px);
+  left: calc(50% - 300px);
 }
 
 /* Previous Portfolio link */
 .previous-portfolio {
-    width: fit-content;
-    position: absolute;
-    bottom: 25px;
-    right: 50px;
+  width: fit-content;
+  position: absolute;
+  bottom: 25px;
+  right: 50px;
 }
 
 /* dark light toggle */
@@ -128,7 +127,6 @@ input:checked + .slider:before {
   transform: translateX(26px);
 }
 
-/* Rounded sliders */
 .slider.round {
   border-radius: 34px;
 }

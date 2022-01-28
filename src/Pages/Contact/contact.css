@@ -1,11 +1,5 @@
-.contact {
-    padding: 15px;
-    display: flex;
-    justify-content: center;
-    border-radius: 5px;
-    background-color: var(--sunset-orange);
-}
-
+/* This stylesheet is specific to element on
+the contact section of this cool site */
 
 form {
     display: flex;
@@ -15,9 +9,12 @@ form {
     justify-content: space-between;
 }
 
-textarea:focus, 
+textarea:focus,
+textarea:hover, 
 input:focus,
-button:focus {
+input:hover,
+button:focus,
+button:hover {
     outline: none;   
     border: none;
 }
@@ -29,11 +26,6 @@ button {
     font-weight: bold;
 }
 
-textarea:hover,
-input:hover,
-button:hover {
-    border: none;
-}
 
 textarea {
     height: 150px;
@@ -46,7 +38,6 @@ input, button {
 }
 
 button {
-    background-color: var(--eggshell);
     border: 3px solid var(--sunset-orange);
     transition: all ease-in-out 0.3s;
 }

@@ -1,3 +1,8 @@
+/* This stylesheet is for common styles across all
+pages some pages have specific stylesheet for things 
+specific for their components, theme also done here
+*/
+
 /* 
 AOS animations 
 \\\\\\\\\\\\\\
@@ -131,6 +136,7 @@ p {
   font-weight:bold;
 }
 
+/* Containers */
 .container {
   height: 100vh;
   padding: 50px;
@@ -148,6 +154,16 @@ p {
   height: fit-content;
 }
 
+.contact, 
+.me {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: var(--sunset-orange);
+}
+
+/* text */
 .text h1 {
   /* text-decoration: underline; */
   font-size: 5rem;
@@ -159,14 +175,14 @@ p {
   line-height: 1.75rem;
 }
 
+/* Mobile and Tablet */
 @media screen and (max-width: 815px) {
   /* container and layout*/
   .container {
-      height: 150vh;
-      flex-direction: column;
-      padding: 15px;
-      justify-content: space-evenly;
-
+    height: 150vh;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: space-evenly;
   }
 
   .text {
@@ -186,8 +202,8 @@ p {
   .skills,
   .me,
   .projects {
-      width: 85%;
-      height: fit-content;
+    width: 85%;
+    height: fit-content;
   }
 
 }
@@ -195,12 +211,3 @@ p {
 End all pages
 \\\\\\\\\\\\\\
 */
-
-
-
-
-
-
-
-
-
