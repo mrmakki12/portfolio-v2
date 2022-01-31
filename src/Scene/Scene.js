@@ -38,6 +38,10 @@ export const Scene = () => {
             alpha: true
         });
 
+        const textureLoader = new THREE.TextureLoader();
+        const texture = textureLoader.load('./rodeo.jpg');
+        console.log(texture);
+
         // add cube 
         const geometry = new THREE.BoxGeometry();
         const material = new THREE.MeshBasicMaterial({
