@@ -2,6 +2,19 @@
 
 export const projects = [
     {
+        name: 'Reddit Minimal',
+
+        description: `View a mini version of one of the craziest places on the internet, Reddit.`,
+
+        tech: ['devicon-react-original', 'devicon-redux-original', 'devicon-html5-plain', 'devicon-css3-plain', 'devicon-javascript-plain'],
+
+        link: 'https://reddit-miniapp.netlify.app',
+
+        screenshot: './static/photos/screenshots/reddit.png'
+
+    },
+    
+    {
         name: 'Donutland',
 
         description: `A fictional donut shop hires a local developer to let customers know where they are,
@@ -13,6 +26,18 @@ export const projects = [
 
         screenshot: './static/photos/screenshots/donutland.png'
 
+    },
+
+    {
+        name: 'Donutland2',
+
+        description: `The fictional donut shop asked their developer to redesign their website`,
+
+        tech: ['devicon-react-original', 'devicon-redux-original', 'devicon-html5-plain', 'devicon-css3-plain', 'devicon-javascript-plain'],
+
+        link: 'https://donutland2.netlify.app',
+
+        screenshot: './static/photos/screenshots/donutland2.png'
     },
 
     {
