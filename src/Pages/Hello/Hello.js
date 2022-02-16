@@ -1,6 +1,22 @@
-import React from 'react';
+import React, { useState, useEffect} from 'react'; 
+// import styles 
+import './hello.css';
 
 export const Hello = () => {
+
+    // state sets image source 
+    const [source, setSource] = useState('/static/photos/me/me.jpg');
+
+    // function to change image source
+    const changeSource = () => {
+        setSource(source === '/static/photos/me/me.jpg' ? '/static/photos/me/me1.jpg' : '/static/photos/me/me.jpg');
+    }
+
+    // using this to switch source of image periodically
+    useEffect(() => {
+        setTimeout(changeSource, 3000);
+    });
+
     return (
         <section className='container' id='about'>
             {/* text container with info about me */}
@@ -25,6 +41,7 @@ export const Hello = () => {
             </div>
             {/* picture of me */}
             <div className='me' data-aos='fade-left'>
+                <img src={source} className='me-image' />
             </div>
 
         </section>

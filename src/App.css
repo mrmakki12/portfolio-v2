@@ -176,10 +176,10 @@ p {
 }
 
 /* Mobile and Tablet */
-@media screen and (max-width: 815px) {
+@media screen and (max-width: 825px) {
   /* container and layout*/
   .container {
-    height: 150vh;
+    height: 180vh;
     flex-direction: column;
     padding: 15px;
     justify-content: space-evenly;

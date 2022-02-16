@@ -1,0 +1,27 @@
+/* this stylesheet contains styles for 
+the Hello section of the page for general
+styles check in app.css
+*/
+
+/* Picture */
+.me-image {
+    max-height: 600px;
+    max-width: 400px;
+    width: auto;
+    height: auto;
+}
+
+/* Queries */
+/* mobile */
+@media screen and (max-width: 450px) {
+    /* picture */
+    .me-image {
+        max-height: 330px;
+        max-width: 200px;
+        width: auto;
+        height: auto;
+    }
+
+    /* Container */
+
+}
