@@ -6,6 +6,7 @@ import { Hello } from './Pages/Hello/Hello.js';
 import { Skills } from './Pages/Skills/Skills.js';
 import { Projects } from './Pages/Projects/Projects.js';
 import { Contact } from './Pages/Contact/Contact.js';
+import { Footer } from './Footer/Footer.js';
 
 function App() {
 
@@ -23,7 +24,8 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
-
+      <Footer />
+      
     </div>
   );
 }

@@ -57,7 +57,8 @@ body::-webkit-scrollbar-thumb,
 .light .meet-tyreeck-text h1,
 .light .makki-dev-text h1,
 .light .text,
-.light .previous-portfolio a {
+.light .previous-portfolio a,
+.light .footer {
   color: var(--rolls-royce-purple);
   text-decoration-color: var(--sunset-orange);
 }
@@ -102,7 +103,8 @@ body::-webkit-scrollbar-thumb,
 .dark .meet-tyreeck-text h1,
 .dark .makki-dev-text h1,
 .dark .text,
-.dark .previous-portfolio a {
+.dark .previous-portfolio a,
+.dark .footer {
   color: var(--eggshell);
   text-decoration-color: var(--sunset-orange);
 }
