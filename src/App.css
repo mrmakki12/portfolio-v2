@@ -41,6 +41,10 @@ body::-webkit-scrollbar-thumb,
   height:20px;
 }
 
+.contact {
+  background-color: var(--sunset-orange);
+}
+
 /* Light mode*/
 .light {
   background-color: var(--eggshell);
@@ -167,7 +171,6 @@ p {
   display: flex;
   justify-content: center;
   border-radius: 5px;
-  background-color: var(--sunset-orange);
 }
 
 /* text */

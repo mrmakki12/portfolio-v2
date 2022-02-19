@@ -41,7 +41,7 @@ export const Hello = () => {
             </div>
             {/* picture of me */}
             <div className='me' data-aos='fade-left'>
-                <img src={source} className='me-image' />
+                <img src={source} className='me-image' alt='Mr.Tyreeck himself'/>
             </div>
 
         </section>
