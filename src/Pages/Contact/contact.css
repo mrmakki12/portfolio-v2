@@ -37,12 +37,12 @@ input, button {
     padding: 10px;
 }
 
-button {
+.contact button {
     border: 3px solid var(--sunset-orange);
     transition: all ease-in-out 0.3s;
 }
 
-button:hover  {
+.contact button:hover  {
     border: 3px solid var(--sunset-orange);
     cursor: pointer;
     color: var(--eggshell);
