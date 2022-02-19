@@ -42,7 +42,7 @@ export const Projects = () => {
                                     <ul>
                                         {
                                             project.tech.map(type => {
-                                                return <span aria-hidden="true" key={Math.random() * 10} className={"devicons-1 " + type + " colored"}></span>
+                                                return <span aria-hidden="true" key={Math.random() * 10} className={"devicons-1 " + type.deviconClass + " colored"} title={type.deviconName}></span>
                                             })
                                         }
                                     </ul>

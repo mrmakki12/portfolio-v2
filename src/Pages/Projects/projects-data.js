@@ -6,7 +6,13 @@ export const projects = [
 
         description: `View a mini version of one of the craziest places on the internet, Reddit.`,
 
-        tech: ['devicon-react-original', 'devicon-redux-original', 'devicon-html5-plain', 'devicon-css3-plain', 'devicon-javascript-plain'],
+        tech: [
+            {deviconClass :'devicon-react-original', deviconName: 'React'}, 
+            {deviconClass: 'devicon-redux-original', deviconName: 'Redux'},
+            {deviconClass: 'devicon-html5-plain', deviconName: 'HTML5'}, 
+            {deviconClass: 'devicon-javascript-plain', deviconName: 'Javascript'},
+            {deviconClass: 'devicon-css3-plain', deviconName: 'CSS3'}
+        ],
 
         link: 'https://reddit-miniapp.netlify.app',
 
@@ -20,7 +26,13 @@ export const projects = [
         description: `A fictional donut shop hires a local developer to let customers know where they are,
         and allow them to place simple orders online.`,
 
-        tech: ['devicon-react-original', 'devicon-redux-original', 'devicon-html5-plain', 'devicon-css3-plain', 'devicon-javascript-plain'],
+        tech: [
+            {deviconClass :'devicon-react-original', deviconName: 'React'}, 
+            {deviconClass: 'devicon-redux-original', deviconName: 'Redux'},
+            {deviconClass: 'devicon-html5-plain', deviconName: 'HTML5'}, 
+            {deviconClass: 'devicon-javascript-plain', deviconName: 'Javascript'},
+            {deviconClass: 'devicon-css3-plain', deviconName: 'CSS3'}
+        ],
 
         link: 'https://donutland.netlify.app',
 
@@ -33,7 +45,13 @@ export const projects = [
 
         description: `The fictional donut shop asked their developer to redesign their website`,
 
-        tech: ['devicon-react-original', 'devicon-redux-original', 'devicon-html5-plain', 'devicon-css3-plain', 'devicon-javascript-plain'],
+        tech: [
+            {deviconClass :'devicon-react-original', deviconName: 'React'}, 
+            {deviconClass: 'devicon-redux-original', deviconName: 'Redux'},
+            {deviconClass: 'devicon-html5-plain', deviconName: 'HTML5'}, 
+            {deviconClass: 'devicon-javascript-plain', deviconName: 'Javascript'},
+            {deviconClass: 'devicon-css3-plain', deviconName: 'CSS3'}
+        ],
 
         link: 'https://donutland2.netlify.app',
 
@@ -46,7 +64,11 @@ export const projects = [
 
         description: `A Frontend Mentor challenge to recreate the landing page of a fictional media agency`,
 
-        tech: ['devicon-html5-plain', 'devicon-css3-plain', 'devicon-javascript-plain'],
+        tech: [
+            {deviconClass: 'devicon-html5-plain', deviconName: 'HTML5'},
+            {deviconClass: 'devicon-css3-plain', deviconName: 'CSS3'},
+            {deviconClass: 'devicon-javascript-plain', deviconName: 'Javascript'}
+        ],
 
         link: 'https://the-sunnyside-agency.netlify.app/',
 
@@ -58,7 +80,11 @@ export const projects = [
 
         description: `Frontend Mentor challenge to recreate a multi-theme calculator`,
 
-        tech: ['devicon-html5-plain', 'devicon-css3-plain', 'devicon-javascript-plain'],
+        tech: [
+            {deviconClass: 'devicon-html5-plain', deviconName: 'HTML5'},
+            {deviconClass: 'devicon-css3-plain', deviconName: 'CSS3'},
+            {deviconClass: 'devicon-javascript-plain', deviconName: 'Javascript'}
+        ],
 
         link: 'https://tyreecks-calculator.netlify.app/',
 
@@ -70,7 +96,11 @@ export const projects = [
 
         description: `Here's my previous portfolio, different but similar to this one`,
 
-        tech: ['devicon-html5-plain', 'devicon-css3-plain', 'devicon-javascript-plain'],
+        tech: [
+            {deviconClass: 'devicon-html5-plain', deviconName: 'HTML5'},
+            {deviconClass: 'devicon-css3-plain', deviconName: 'CSS3'},
+            {deviconClass: 'devicon-javascript-plain', deviconName: 'Javascript'}
+        ],
 
         link: 'https://meet-tyreeck.netlify.app',
 
