@@ -17,7 +17,7 @@ export const Contact = () => {
             </div>
             {/* contact form, fades left on scroll*/}
             <div className='contact' data-aos='fade-left'>
-                <form aria-label='Contact Tyreeck' action='https://formsubmit.co/mrmakki12@gmail.com' method='POST'>
+                <form aria-label='Contact Tyreeck' action='https://formsubmit.co/3112bd9a45183d9f0beb00ecedc5f219' method='POST'>
                     <input 
                         type='text' 
                         placeholder='Name'
