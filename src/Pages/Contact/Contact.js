@@ -16,26 +16,30 @@ export const Contact = () => {
                 <a href='https://github.com/mrmakki12' target='_blank'><span aria-hidden="true" className="devicons devicon-github-original" title="My Github"></span></a>
             </div>
             {/* contact form, fades left on scroll*/}
-            <div className='contact' data-aos='fade-left'>
+            <div className='contact' data-aos='fade-left' action='https://formsubmit.co/mrmakki12@gmail.com' method='POST'>
                 <form aria-label='Contact Tyreeck'>
                     <input 
                         type='text' 
                         placeholder='Name'
                         aria-label='Your Name'
+                        name='Name'
                     />
                     <input 
                         type='text'
                         placeholder='Subject'
                         aria-label='Subject of email'
+                        name='Subject'
                     />
                     <input 
                         type='email'
                         placeholder='Email'
                         aria-label='Your email address'
+                        name='Email'
                     />
                     <textarea 
                         placeholder='Let Me Hear It!!!' 
                         aria-label='Your message'
+                        name='Text'
                     />
                     <button type='submit' aria-label='send'>Send!</button>    
                 </form>
