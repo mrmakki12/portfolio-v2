@@ -14,6 +14,11 @@ projects section of the page */
     height: 25px;
     width: 25px;
     border-radius: 50%;
+    background-color: transparent;
+}
+
+.scroll:hover {
+    background-color: transparent;
 }
 
 .devicons-1 {
@@ -43,6 +48,10 @@ projects section of the page */
     width: 550px;
     overflow-x: scroll;
     border-radius: 5px;
+}
+
+.projects::-webkit-scrollbar{
+    display: none;
 }
 
 /* Mobile size */
