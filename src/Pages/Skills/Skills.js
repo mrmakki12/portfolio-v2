@@ -34,7 +34,7 @@ export const Skills = () => {
                     <span aria-hidden="true" className="devicons devicon-css3-plain colored" title="CSS3"></span>
                 </div>
                 <div>
-                    <span aria-hidden="true" className="devicons devicon-github-original colored" title="Github"></span>
+                    <span aria-hidden="true" className="devicons devicon-github-original" title="Github"></span>
                 </div>
                 <div>
                     <span aria-hidden="true" className='devicons tbd' title='Future skill here :)'>...</span>

@@ -29,10 +29,6 @@ nav,
   color: var(--sunset-orange);
 }
 
-.skills {
-  background-color: var(--sunset-orange);
-}
-
 body::-webkit-scrollbar,
 .projects::-webkit-scrollbar {
   width: 0.7em;
@@ -115,6 +111,11 @@ body::-webkit-scrollbar-thumb,
 
 .dark .project {
   color: var(--eggshell);
+}
+
+.dark .devicon-github-original,
+.dark .tbd {
+  color: white;
 }
 
 /* 
