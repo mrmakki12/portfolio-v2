@@ -134,6 +134,10 @@ a {
   color: inherit;
 }
 
+.text a {
+  text-decoration: none;
+}
+
 p {
   font-weight:bold;
 }

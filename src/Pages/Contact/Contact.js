@@ -11,6 +11,9 @@ export const Contact = () => {
                     If you made down here, go ahead and send me an email!
                     It can be about anything really.
                 </p>
+                {/* links to linkedIn and Github */}
+                <a href='https://www.linkedin.com/in/tyreeck-makki/' target='_blank'><span aria-hidden="true" className="devicons devicon-linkedin-plain colored" title="My LinkedIn"></span></a>
+                <a href='https://github.com/mrmakki12' target='_blank'><span aria-hidden="true" className="devicons devicon-github-original" title="My Github"></span></a>
             </div>
             {/* contact form, fades left on scroll*/}
             <div className='contact' data-aos='fade-left'>
