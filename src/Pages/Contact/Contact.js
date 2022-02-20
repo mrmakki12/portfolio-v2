@@ -45,6 +45,11 @@ export const Contact = () => {
                         name='Text'
                         required
                     />
+                    <input 
+                        type='hidden'
+                        name='_next'
+                        value='https://tyreeckcodes.com/Thanks.html'
+                    />
                     <button type='submit' aria-label='send'>Send!</button>    
                 </form>
             </div>
