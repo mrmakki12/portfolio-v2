@@ -23,20 +23,23 @@ export const Hello = () => {
             <div className='text' data-aos='fade-right'>
                 <h1>Hello!</h1>
                 <p>
-                    Hey, I'm Tyreeck. I'm a Web-Developer from North Carolina.
-                    I love Web-Development and coding in general because it enables 
-                    me to express myself and my interest. I could potentially get in touch 
-                    with thousands, hundreds of thousands or even millions of people.
-                    <br />
-                    <br />
-                    Besides coding I love to hit the gym, play basketball and learn about things that
-                    interest me like philosophy, economics and self-improvement.
-                    <br />
-                    <br />
-                    Constant and Never Ending Improvement(CANI) is one of the values I hold most dearly. It 
-                    has helped me to improve in all aspects of life (including coding).
-                    I would love to work with a group that makes it a priority to constantly improve themselves 
-                    and their work by learning new strategies and skills.
+                    I'm Tyreeck, a Web Developer from North Carolina.
+                    I love that I get to not only express myself and my values, but that I get to help people
+                    express themselves through my work! I also love the mental exercise involved with learning new
+                    skills and using my imagination to bring projects from the mind, to the drawing table and 
+                    into the world.
+                </p>
+                <br />
+                <br />
+                <p>
+                    I like spending my free time in the gym, drawing and learning through books, podcast and online courses. 
+                    I'm very interested in learning about the mind, philosophy, economics, education and self-improvement.
+                </p>
+                <br />
+                <br />
+                <p>
+                    I consider myself I life-long learner. So, I prefer to be in an environment where I get to learn
+                    and try new things on a consistent basis.
                 </p>
             </div>
             {/* picture of me */}
