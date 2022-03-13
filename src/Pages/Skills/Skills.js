@@ -11,9 +11,8 @@ export const Skills = () => {
                 <p>
                 These are the technologies I am most familiar with and have
                     used in my projects. The ellipsis represent future skills to be added.
-                    As of now I'm only 'comfortable' with front-end technologies, but I have
-                    a strong interest in learning the backend with Node, Express and SQL. I'll
-                    never stop learning.
+                    I started my coding journey on the frontend, but have recently started learning 
+                    the backend with PostgreSQL and Node + Express.
                 </p>
             </div>
             {/* skills container with devicons representing skills */}
@@ -35,6 +34,15 @@ export const Skills = () => {
                 </div>
                 <div>
                     <span aria-hidden="true" className="devicons devicon-github-original" title="Github"></span>
+                </div>
+                <div>
+                    <span aria-hidden="true" className="devicons devicon-postgresql-plain colored" title="PostgreSQL with Postbird"></span>
+                </div>
+                <div>
+                    <span aria-hidden="true" className="devicons devicon-figma-plain colored" title="Figma"></span>
+                </div>
+                <div>
+                    <span aria-hidden="true" className="devicons devicon-express-original colored" title="Node with Express"></span>
                 </div>
                 <div>
                     <span aria-hidden="true" className='devicons tbd' title='Future skill here :)'>...</span>
