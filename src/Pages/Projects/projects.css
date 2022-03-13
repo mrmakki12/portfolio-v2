@@ -18,6 +18,10 @@ projects section of the page */
     background-color: var(--sunset-orange);
 }
 
+.scroll:hover {
+    cursor: pointer;
+}
+
 .devicons-1 {
     font-size: 3rem;
     margin: 10px;

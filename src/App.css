@@ -118,7 +118,8 @@ body::-webkit-scrollbar-thumb,
 }
 
 .dark .devicon-github-original,
-.dark .tbd {
+.dark .tbd,
+.dark .devicon-express-original {
   color: white;
 }
 
