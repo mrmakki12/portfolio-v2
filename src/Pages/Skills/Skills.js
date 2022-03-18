@@ -42,13 +42,19 @@ export const Skills = () => {
                     <span aria-hidden="true" className="devicons devicon-figma-plain colored" title="Figma"></span>
                 </div>
                 <div>
-                    <span aria-hidden="true" className="devicons devicon-express-original colored" title="Node with Express"></span>
+                    <span aria-hidden="true" className="devicons devicon-express-original colored" title="Express.js"></span>
+                </div>
+                <div>
+                    <span aria-hidden="true" className='devicons devicon-nodejs-plain colored' title='Node.js'></span>
+                </div>
+                <div>
+                    <span aria-hidden="true" className='devicons devicon-vscode-plain colored' title='VSCode'></span>
                 </div>
                 <div>
                     <span aria-hidden="true" className='devicons tbd' title='Future skill here :)'>...</span>
                 </div>
                 <div>
-                <span aria-hidden="true" className='devicons tbd' title='Another Future skill here :)'>...</span>
+                    <span aria-hidden="true" className='devicons tbd' title='Another Future skill here :)'>...</span>
                 </div>
             </div>
             

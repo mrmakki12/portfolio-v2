@@ -2,6 +2,25 @@
 
 export const projects = [
     {
+        name: 'The Economic Times',
+
+        description: `My first full-stack project. View articles on economic topics and comment on them.`,
+
+        tech: [
+            {deviconClass :'devicon-react-original', deviconName: 'React'},
+            {deviconClass: 'devicon-html5-plain', deviconName: 'HTML5'}, 
+            {deviconClass: 'devicon-javascript-plain', deviconName: 'Javascript'},
+            {deviconClass: 'devicon-css3-plain', deviconName: 'CSS3'},
+            {deviconClass: 'devicon-nodejs-plain', deviconName: 'Node.js'},
+            {deviconClass: 'devicon-express-original', deviconName: 'Express.js'},
+            {deviconClass: 'devicon-postrgresql-plain colored', deviconName: 'PostreSQL'}
+        ],
+
+        link: 'https://github.com/mrmakki12/news',
+
+        screenshot: './static/photos/screenshots/econ-times.png'
+    },
+    {
         name: 'Reddit Minimal',
 
         description: `View a mini version of one of the craziest places on the internet, Reddit.`,
