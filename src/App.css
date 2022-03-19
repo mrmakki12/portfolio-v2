@@ -50,6 +50,10 @@ body::-webkit-scrollbar-thumb,
   background-color: var(--eggshell);
 }
 
+#about .text span {
+  text-decoration: underline solid var(--sunset-orange);
+}
+
 .light nav ul li {
   border-bottom: 3px solid var(--rolls-royce-purple);
 }

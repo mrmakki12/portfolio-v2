@@ -33,7 +33,7 @@ export const Hello = () => {
                 <br />
                 <p>
                     I'm looking to help you meet your goals, whatever they may be! Besides "Hard Skills", here is what I could bring
-                    to your table: Quality, Peace of Mind, Stability and Never Ending Growth.
+                    to your table: <span>Quality</span>, <span>Peace of Mind</span>, <span>Stability</span> and <span>Never Ending Growth</span>.
                 </p>
                 <br />
                 <br />
