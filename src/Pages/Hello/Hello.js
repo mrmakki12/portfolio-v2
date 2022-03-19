@@ -32,14 +32,13 @@ export const Hello = () => {
                 <br />
                 <br />
                 <p>
-                    I like spending my free time in the gym, drawing and learning through books, podcast and online courses. 
-                    I'm very interested in learning about the mind, philosophy, economics, education and self-improvement.
+                    I'm looking to help you meet your goals, whatever they may be! Besides "Hard Skills", here is what I could bring
+                    to your table: Quality, Peace of Mind, Stability and Never Ending Growth.
                 </p>
                 <br />
                 <br />
                 <p>
-                    I consider myself I life-long learner. So, I prefer to be in an environment where I get to learn
-                    and try new things on a consistent basis.
+                    Scroll below to see my current "Hard Skills", have a look at my projects and contact me so I can give you a hand!
                 </p>
             </div>
             {/* picture of me */}

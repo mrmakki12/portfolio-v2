@@ -8,8 +8,7 @@ export const Contact = () => {
             <div className='text' data-aos='fade-right'>
                 <h1>Contact!</h1>
                 <p>
-                    If you made down here, go ahead and send me an email!
-                    It can be about anything really.
+                    Hey! Contact me to see how I can help you meet your goals! 
                 </p>
                 {/* links to linkedIn and Github */}
                 <a href='https://www.linkedin.com/in/tyreeck-makki/' aria-label="Tyreeck's LinkedIn" target='_blank' rel='noreferrer'><span aria-hidden="true" className="devicons devicon-linkedin-plain colored" title="My LinkedIn"></span></a>

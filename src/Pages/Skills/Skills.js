@@ -9,7 +9,7 @@ export const Skills = () => {
             <div className='text' data-aos='fade-right'>
                 <h1>Skills!</h1>
                 <p>
-                These are the technologies I am most familiar with and have
+                    I'm always willing to learn new technologies, but here is what I am most familiar with and have
                     used in my projects. The ellipsis represent future skills to be added.
                     I started my coding journey on the frontend, but have recently started learning 
                     the backend with PostgreSQL and Node + Express.
