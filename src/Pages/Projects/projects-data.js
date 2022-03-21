@@ -13,7 +13,7 @@ export const projects = [
             {deviconClass: 'devicon-css3-plain', deviconName: 'CSS3'},
             {deviconClass: 'devicon-nodejs-plain', deviconName: 'Node.js'},
             {deviconClass: 'devicon-express-original', deviconName: 'Express.js'},
-            {deviconClass: 'devicon-postrgresql-plain colored', deviconName: 'PostreSQL'}
+            {deviconClass: 'devicon-postgresql-plain colored', deviconName: 'PostreSQL'}
         ],
 
         link: 'https://github.com/mrmakki12/news',
