@@ -111,6 +111,22 @@ export const projects = [
     },
 
     {
+        name: `Dog's Best Friend`,
+
+        description: 'A fictional pet store for dogs.',
+
+        tech: [
+            {deviconClass: 'devicon-html5-plain', deviconName: 'HTML5'},
+            {deviconClass: 'devicon-css3-plain', deviconName: 'CSS3'},
+            {deviconClass: 'devicon-javascript-plain', deviconName: 'Javascript'}
+        ],
+
+        link: 'https://dogs-best-friend.netlify.app/',
+
+        screenshot: './static/photos/screenshots/mock-dog-company.png'
+    },
+
+    {
         name: 'Previous Portfolio',
 
         description: `Here's my previous portfolio, different but similar to this one`,
