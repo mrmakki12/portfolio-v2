@@ -51,6 +51,12 @@ export const Skills = () => {
                     <span aria-hidden="true" className='devicons devicon-vscode-plain colored' title='VSCode'></span>
                 </div>
                 <div>
+                    <span aria-hidden="true" className='devicons devicon-jest-plain colored' title='Jest with React-testing-library'></span>
+                </div>
+                <div>
+                    <span aria-hidden="true" className='devicons devicon-bootstrap-plain colored' title='Bootstrap'></span>
+                </div>
+                <div>
                     <span aria-hidden="true" className='devicons tbd' title='Future skill here :)'>...</span>
                 </div>
                 <div>
