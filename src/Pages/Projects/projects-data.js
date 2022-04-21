@@ -22,7 +22,7 @@ export const projects = [
             {deviconClass: 'devicon-figma-plain colored', deviconName: 'Figma'}
         ],
 
-        link: 'https://https://mblog-api.herokuapp.com/',
+        link: 'https://mblog-api.herokuapp.com/',
 
         screenshot: './static/photos/screenshots/mblog.png'
     },
