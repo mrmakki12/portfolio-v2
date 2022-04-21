@@ -1,6 +1,32 @@
 // Projects to be rendered by Projects.js 
 
 export const projects = [
+
+    {
+        name: 'Markdown Blog',
+
+        description: `Create a secure account and login to read, comment on and create articles that are written 
+        using Markdown!`,
+
+        tech: [
+            {deviconClass :'devicon-react-original', deviconName: 'React'},
+            {deviconClass: 'devicon-html5-plain', deviconName: 'HTML5'}, 
+            {deviconClass: 'devicon-javascript-plain', deviconName: 'Javascript'},
+            {deviconClass: 'devicon-css3-plain', deviconName: 'CSS3'},
+            {deviconClass: 'devicon-nodejs-plain', deviconName: 'Node.js'},
+            {deviconClass: 'devicon-express-original', deviconName: 'Express.js'},
+            {deviconClass: 'devicon-mysql-plain colored', deviconName: 'MySQL'},
+            {deviconClass: 'devicon-heroku-original colored', deviconNane: 'Heroku'},
+            {deviconClass: 'devicon-jest-plain colored', deviconName: 'React Testing Library with Jest'},
+            {deviconClass: 'devicon-markdown-original', deviconName: 'Markdown'},
+            {deviconClass: 'devicon-figma-plain colored', deviconName: 'Figma'}
+        ],
+
+        link: 'https://https://mblog-api.herokuapp.com/',
+
+        screenshot: './static/photos/screenshots/mblog.png'
+    },
+
     {
         name: 'The Economic Times',
 

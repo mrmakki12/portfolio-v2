@@ -57,6 +57,15 @@ export const Skills = () => {
                     <span aria-hidden="true" className='devicons devicon-bootstrap-plain colored' title='Bootstrap'></span>
                 </div>
                 <div>
+                    <span aria-hidden="true" className='devicons devicon-markdown-plain' title='Markdown'></span>
+                </div>
+                <div>
+                    <span aria-hidden="true" className='devicons devicon-mysql-plain' title='MySQL'></span>
+                </div>
+                <div>
+                    <span aria-hidden="true" className='devicons devicon-heroku-original colored' title='Heroku'></span>
+                </div>
+                <div>
                     <span aria-hidden="true" className='devicons tbd' title='Future skill here :)'>...</span>
                 </div>
                 <div>
