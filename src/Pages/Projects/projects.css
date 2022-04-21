@@ -10,6 +10,12 @@ projects section of the page */
     font-size: 1.25rem;
 }
 
+.project ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .scroll {
     height: 25px;
     width: 25px;
@@ -46,7 +52,7 @@ projects section of the page */
 .projects {
     display: flex;
     height: fit-content;
-    width: 550px;
+    max-width: 550px;
     overflow-x: scroll;
     border-radius: 5px;
 }
