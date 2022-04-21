@@ -36,7 +36,7 @@ projects section of the page */
 .screenshot-link img{
     max-height: 350px;
     height: auto;
-    width: 550px;
+    max-width: 550px;
     width: auto;
 }
 
@@ -52,7 +52,7 @@ projects section of the page */
 .projects {
     display: flex;
     height: fit-content;
-    max-width: 550px;
+    width: 550px;
     overflow-x: scroll;
     border-radius: 5px;
 }
