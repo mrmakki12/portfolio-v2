@@ -10,8 +10,7 @@ export const Projects = () => {
             <div className='text' data-aos='fade-right'>
                 <h1>Projects!</h1>
                 <p>
-                    Theses are some the projects I've made using the tech
-                    listed above. I'm always working on a project.
+                    I'm always working on a project!
                 </p>
             </div>
             {/* container with projects rendered from projects-data.js, fades right on scroll */}
