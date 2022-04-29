@@ -45,7 +45,7 @@ export const Landing = (props) => {
                 <div className='makki-dev'>
                     <div className='makki-dev-text'>
                         <h1>Makki</h1>
-                        <p>Web Developer</p>
+                        <p>Developer</p>
                     </div>
                     <p className='previous-portfolio'>See My Previous <a target='_blank' href='https://meet-tyreeck.netlify.app'>Portfolio</a></p>
                     {/* light dark toggle */}
