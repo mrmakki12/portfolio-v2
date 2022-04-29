@@ -22,24 +22,46 @@ export const Hello = () => {
             {/* text container with info about me */}
             <div className='text' data-aos='fade-right'>
                 <h1>Hello!</h1>
-                <p>
-                    I'm Tyreeck, a Web Developer from North Carolina.
-                    I love that I get to not only express myself and my values, but that I get to help people
-                    express themselves through my work! I also love the mental exercise involved with learning new
-                    skills and using my imagination to bring projects from the mind, to the drawing table and 
-                    into the world.
-                </p>
+                <div>
+                    <h2><span>About Me!</span></h2>
+                    <br />
+                    <p>
+                        I'm Tyreeck, a Developer from North Carolina.
+                        I love that I get to express myself and my values, and that I get to help people
+                        express themselves through my work! I love the mental exercise involved with learning and using my imagination to bring projects from the mind and 
+                        into the world.
+                    </p>
+                </div>
                 <br />
                 <br />
-                <p>
-                    I'm looking to help you meet your goals, whatever they may be! Besides "Hard Skills", here is what I could bring
-                    to your table: <span>Quality</span>, <span>Peace of Mind</span>, <span>Stability</span> and <span>Never Ending Growth</span>.
-                </p>
+                <div style={{display: 'flex'}}>
+                    <div style={{minWidth: '40%'}}>
+                        <h2><span>Soft Skills</span></h2>
+                        <br />
+                        <ul>
+                            <li>
+                                <p>- Patience</p>
+                            </li>
+                            <li>
+                                <p>- Persistence</p>
+                            </li>
+                            <li>
+                                <p>- Discipline</p>
+                            </li>
+                            <li>
+                                <p>- Expectancy</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p>
+                            I'm looking to help out where ever I can. I believe having these skills makes me a great teammate!
+                            Who wants to work with someone missing these skills?
+                        </p>
+                    </div>
+                </div>
                 <br />
                 <br />
-                <p>
-                    Scroll below to see my current "Hard Skills", have a look at my projects and contact me so I can give you a hand!
-                </p>
             </div>
             {/* picture of me */}
             <div className='me' data-aos='fade-left'>
