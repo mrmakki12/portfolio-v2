@@ -1,6 +1,25 @@
 // Projects to be rendered by Projects.js 
 
 export const projects = [
+    {
+        name: 'Chat App',
+
+        description: `Join a room and chat with whoever is on the other side with WebSockets`,
+
+        tech: [
+            {deviconClass :'devicon-react-original', deviconName: 'React'},
+            {deviconClass: 'devicon-html5-plain', deviconName: 'HTML5'}, 
+            {deviconClass: 'devicon-javascript-plain', deviconName: 'Javascript'},
+            {deviconClass: 'devicon-express-original', deviconName: 'Express.js'},
+            {deviconClass: 'devicon-heroku-original colored', deviconNane: 'Heroku'},
+            {deviconClass: 'devicon-figma-plain colored', deviconName: 'Figma'},
+            {deviconClass: 'devicon-socketio-original colored', deviconName: 'Socket.io'}
+        ],
+
+        link: 'https://tyreecks-chatapp.herokuapp.com/',
+
+        screenshot: './static/photos/screenshots/text-chat.png'
+    },
 
     {
         name: 'Markdown Blog',
