@@ -23,8 +23,6 @@ export const Hello = () => {
             <div className='text' data-aos='fade-right'>
                 <h1>Hello!</h1>
                 <div>
-                    <h2><span>About Me!</span></h2>
-                    <br />
                     <p>
                         I'm Tyreeck, a Developer from North Carolina.
                         I love that I get to express myself and my values, and that I get to help people
@@ -32,36 +30,6 @@ export const Hello = () => {
                         into the world.
                     </p>
                 </div>
-                <br />
-                <br />
-                <div style={{display: 'flex'}}>
-                    <div style={{minWidth: '40%'}}>
-                        <h2><span>Soft Skills</span></h2>
-                        <br />
-                        <ul>
-                            <li>
-                                <p>- Patience</p>
-                            </li>
-                            <li>
-                                <p>- Persistence</p>
-                            </li>
-                            <li>
-                                <p>- Discipline</p>
-                            </li>
-                            <li>
-                                <p>- Expectancy</p>
-                            </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <p>
-                            I'm looking to help out where ever I can. I believe having these skills makes me a great teammate!
-                            Who wants to work with someone missing these skills?
-                        </p>
-                    </div>
-                </div>
-                <br />
-                <br />
             </div>
             {/* picture of me */}
             <div className='me' data-aos='fade-left'>
