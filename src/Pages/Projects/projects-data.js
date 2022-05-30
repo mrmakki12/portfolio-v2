@@ -2,6 +2,22 @@
 
 export const projects = [
     {
+        name: 'Portfolio Side Scroller!',
+
+        description: `View my portfolio as a 2d side scroller made in pure JavaScript. *Desktop only`,
+
+        tech: [
+            {deviconClass: 'devicon-html5-plain', deviconName: 'HTML5'}, 
+            {deviconClass: 'devicon-javascript-plain', deviconName: 'Javascript'},
+            {deviconClass: 'devicon-figma-plain colored', deviconName: 'Figma'}
+        ],
+
+        link: 'https://meet-tyreeck-2d-scroller.netlify.app/',
+
+        screenshot: './static/photos/screenshots/portfolio-game.png'
+    },
+
+    {
         name: 'Chat App',
 
         description: `Join a room and chat with whoever is on the other side with WebSockets`,
