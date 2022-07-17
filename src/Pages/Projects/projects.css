@@ -17,11 +17,14 @@ projects section of the page */
 }
 
 .scroll {
-    height: 25px;
-    width: 25px;
-    border-radius: 50%;
-    border: 3px solid var(--sunset-orange);
-    background-color: var(--sunset-orange);
+    background: transparent;
+    background-image: url('../../../public/static/photos/screenshots/triange.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.scroll.right {
+    transform: rotate(180deg);
 }
 
 .scroll:hover {
